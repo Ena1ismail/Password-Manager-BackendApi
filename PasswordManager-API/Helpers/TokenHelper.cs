@@ -11,7 +11,7 @@ namespace PasswordManager_API.Helpers
         {
             //inlization handler
             var JWTTokenHandler = new JwtSecurityTokenHandler();
-            //setup token Key
+          
             //1- long secrect
             //2- convert secrect to bytes
             string secrect = "LongPrimarySecrectForPasswordManageApplicationASPCoreModuleForDevelopementPurppose";
